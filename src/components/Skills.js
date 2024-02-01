@@ -5,6 +5,11 @@ import meter4 from "../assets/img/meter4.svg";
 import meter5 from "../assets/img/meter5.svg";
 import meter6 from "../assets/img/meter6.png";
 import meter7 from "../assets/img/meter7.png";
+import meter8 from "../assets/img/meter8.png";
+import meter9 from "../assets/img/meter9.png";
+import meter10 from "../assets/img/meter10.svg";
+import meter11 from "../assets/img/meter11.png";
+import meter12 from "../assets/img/meter12.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -65,7 +70,7 @@ export const Skills = () => {
                                 <div>
                                   <img src={meter5} alt="Image" />
                                 </div>
-                                <h5 className="skillTitle">Redux</h5>
+                                <h5 className="skillTitle">Redux & Redux-Toolkit</h5>
                             </div>
                             <div className="item">
                                 <div>
@@ -78,6 +83,36 @@ export const Skills = () => {
                                   <img src={meter7} alt="Image" />
                                 </div>
                                 <h5 className="skillTitle">Type Script</h5>
+                            </div>
+                            <div className="item">
+                                <div>
+                                  <img src={meter8} alt="Image" />
+                                </div>
+                                <h5 className="skillTitle">Next JS</h5>
+                            </div>
+                            <div className="item">
+                                <div>
+                                  <img src={meter9} alt="Image" />
+                                </div>
+                                <h5 className="skillTitle">Nest JS</h5>
+                            </div>
+                            <div className="item">
+                                <div>
+                                  <img src={meter10} alt="Image" />
+                                </div>
+                                <h5 className="skillTitle">Tanstack Query</h5>
+                            </div>
+                            <div className="item">
+                                <div>
+                                  <img src={meter11} alt="Image" />
+                                </div>
+                                <h5 className="skillTitle">Tailwind CSS</h5>
+                            </div>
+                            <div className="item">
+                                <div>
+                                  <img src={meter12} alt="Image" />
+                                </div>
+                                <h5 className="skillTitle">Sass & Scss</h5>
                             </div>
                         </Carousel>
                     </div>
