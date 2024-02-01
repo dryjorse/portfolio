@@ -6,6 +6,9 @@ import projImg3 from "../assets/img/project-img3.jpg";
 import projImg4 from "../assets/img/project-img4.jpg";
 import projImg5 from "../assets/img/project-img5.jpg";
 import projImg6 from "../assets/img/project-img6.jpg";
+import projImg7 from "../assets/img/project-img7.jpg";
+import projImg8 from "../assets/img/project-img8.jpg";
+import projImg9 from "../assets/img/project-img9.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -13,8 +16,21 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
+      title: "The Rolls Band",
+      description: "React & React-query & Typescript & Tailwind & i18next ",
+      imgUrl: projImg8,
+      url: "https://therollsband.com/",
+      position: "top",
+    },
+    {
+      title: "Fanat Kg",
+      description: "React & React-query & SCSS ",
+      imgUrl: projImg7,
+      url: "https://fanat.kg/",
+    },
+    {
       title: "Song-Kol Travel",
-      description: "React & Redux-toolkit & Typescript & Tailwind ",
+      description: "React & Redux-toolkit & Typescript & Tailwind & i18next ",
       imgUrl: projImg6,
       url: "http://song-kol.com/",
     },
@@ -25,28 +41,17 @@ export const Projects = () => {
       url: "https://defolinet.github.io/anireatsuFront",
     },
     {
-      title: "Select Sneakers",
-      description: "React & Redux-toolkit & Node-js & Express & MongoDB ",
-      imgUrl: projImg5,
-      url: "https://dryjorse.github.io/selectSneakersFront",
-    },
-    {
-      title: "Gogorna",
-      description: "Html/Css & Js",
-      imgUrl: projImg1,
-      url: "https://dryjorse.github.io/gogorna",
+      title: "Toguz Korgool",
+      description: "Html & Css & Js",
+      imgUrl: projImg9,
+      url: "https://defolinet.github.io/anireatsuFront",
     },
     {
       title: "Pokemons",
       description: "React & Redux (without adaptive)",
       imgUrl: projImg2,
       url: "https://dryjorse.github.io/pokemonSite",
-    },
-    {
-      title: "Webovio",
-      description: "Html/Css & Js",
-      imgUrl: projImg3,
-      url: "https://dryjorse.github.io/webovio",
+      position: "top",
     },
   ];
 
