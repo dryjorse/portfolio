@@ -44,7 +44,7 @@ export const Projects = () => {
       title: "Toguz Korgool",
       description: "Html & Css & Js",
       imgUrl: projImg9,
-      url: "https://defolinet.github.io/anireatsuFront",
+      url: "https://dryjorse.github.io/toguz-korgool/",
     },
     {
       title: "Pokemons",
